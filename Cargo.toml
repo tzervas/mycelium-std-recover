@@ -13,9 +13,9 @@ workspace = true
 
 [dependencies]
 mycelium-core = { git = "https://github.com/tzervas/mycelium-core", rev = "57ef45b453eef1f02bdfb1f0cad1034dabd32b1f" }
-mycelium-std-core = { git = "https://github.com/tzervas/mycelium-std-core", rev = "376762cc17853e1582684ececf9e760426bcfb0c" }
-mycelium-diag = { git = "https://github.com/tzervas/mycelium-runtime", rev = "f9e7c3946836c91848a5b6de13ed9dc61665c4fd" }
-mycelium-interp = { git = "https://github.com/tzervas/mycelium-runtime", rev = "f9e7c3946836c91848a5b6de13ed9dc61665c4fd" }
+mycelium-std-core = { git = "https://github.com/tzervas/mycelium-std-core", rev = "19398dfd847eb9a5fc518149a714d7646abbb316" }
+mycelium-diag = { git = "https://github.com/tzervas/mycelium-runtime", rev = "2317cd1694496b72225213a9fdc59407a907b495" }
+mycelium-interp = { git = "https://github.com/tzervas/mycelium-runtime", rev = "2317cd1694496b72225213a9fdc59407a907b495" }
 blake3.workspace = true
 # serde + serde_json: stable canonical encoding for fallback values in PolicyRef hash (banked guard #5).
 # Both are vetted workspace deps (mycelium-core, mycelium-std-spore, etc. already use them).
